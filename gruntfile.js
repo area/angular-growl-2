@@ -97,7 +97,6 @@ module.exports = function (grunt) {
 				},
 				options: {
 					'banner': '<%= meta.banner %>',
-					'report': 'gzip'
 				}
 			}
 		},
@@ -109,7 +108,6 @@ module.exports = function (grunt) {
 				},
 				options: {
 					banner: '<%= meta.banner %>',
-					report: 'gzip'
 				}
 			}
 		},
